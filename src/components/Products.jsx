@@ -18,7 +18,7 @@ export function Products({ filteredProducts }) {
 
           return (
             <li key={product.id}>
-              <img src={product.thumbnail} alt={`${product.title} image`} />
+              <img className='product-image' src={product.thumbnail} alt={`${product.title} image`} />
               <div>
                 <span>{product.title} - </span>
                 <span>${product.price}</span>
